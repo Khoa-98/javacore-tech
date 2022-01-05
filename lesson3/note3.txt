@@ -1,0 +1,4 @@
+- hạn chế lồng các câu lệnh if-else vào nhau vì sẽ gây phức tạp 
+--> thay vào đó sử dụng if..else if... else
+
+-
