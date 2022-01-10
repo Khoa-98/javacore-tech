@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public enum TypeProduct {
+public enum TypeProduct {
+    Đồgiadụng, thựcphẩm, thờitrang ;
 }
