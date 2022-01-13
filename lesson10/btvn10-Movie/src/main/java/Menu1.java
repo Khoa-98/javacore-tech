@@ -1,4 +1,4 @@
-public class Menu {
+public class Menu1 {
     public static void menu(){
         System.out.println("Bạn có thể thực hiện:");
         System.out.println("1 - Xem danh sách phim");
@@ -8,6 +8,5 @@ public class Menu {
         System.out.println("5 - Lấy ra 3 phim có lượt xem cao nhất");
         System.out.println("6 - Tìm phim theo thể loại");
         System.out.println("0 - Thoát chương trình");
-
     }
 }

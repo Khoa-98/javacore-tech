@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df47ab1c-d72e-469c-82a6-99aad72e9f52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/btvn10-Movie/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/btvn10-Movie/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/btvn10-Movie/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/btvn10-Movie/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/btvn10-Movie/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/btvn10-Movie/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/btvn10-Movie/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/btvn10-Movie/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/btvn10-Movie/src/main/java/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/Movie/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Movie/src/main/java/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/Movie/src/main/java/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/MovieManage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/MovieManage/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/MovieManage/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/MovieManage/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/ReadJson/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/ReadJson/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/ReadJson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/ReadJson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/Moive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/Moive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/ReadJson/src/main/java/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/Sorting/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/Sorting/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/src/main/java/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/src/main/java/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/src/main/java/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/src/main/java/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/btvn10-Movie/target/classes/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/ListInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/ListInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/ListString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/ListString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson9/lab-9/BookManage/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="23d50W2OfM2Kg5VJHTgjaqaathM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df47ab1c-d72e-469c-82a6-99aad72e9f52" name="Changes" comment="" />
+      <created>1642050901109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642050901109</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,3 +1,4 @@
+import java.awt.Menu;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,7 +17,7 @@ public class MovieController {
         public void mainMenu(){
             boolean isContinue = true;
             while (isContinue){
-                Menu.menu();
+                Menu1.menu();
                 int choose = Integer.parseInt(sc.nextLine());
                 switch (choose){
                     case 1:
@@ -43,7 +44,12 @@ public class MovieController {
                         System.out.println("3 phim có lượt xem cao nhất");
                         service.sortView(movies);
                         service.threeMaxView(movies);
-                        service.show(movies);
+                       break;
+                    case 6:
+                        System.out.println("Nhập thể loại: ");
+                        String category = sc.nextLine();
+                        System.out.println("Danh sách phim tìm được là: ");
+                        service.searchByCategory(movies, category);
                         break;
                     case 0:
                         System.exit(0);
@@ -55,4 +61,3 @@ public class MovieController {
         }
 
 }
-

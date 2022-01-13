@@ -67,9 +67,17 @@ public class MovieService {
 
     }
     public void threeMaxView(ArrayList<Movie> movies){
-        movies.get(0);
-        movies.get(1);
-        movies.get(2);
+        System.out.println(movies.get(0));
+        System.out.println(movies.get(1));
+        System.out.println(movies.get(2));
+    }
+
+    public void searchByCategory(ArrayList<Movie> movies, String searchCategory){
+        for (Movie m:movies){
+            if(m.getCategory().toLowerCase().contains(searchCategory.toLowerCase())){
+                System.out.println(m);
+            }
+        }
     }
 
 }
