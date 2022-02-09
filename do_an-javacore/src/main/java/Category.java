@@ -1,4 +1,4 @@
-public enum Catogery {
+public enum Category {
     PHONE ("Điện thoại"),
     LAPTOP ("Máy Tính"),
     TABLET ("Máy tính bảng"),
@@ -6,7 +6,7 @@ public enum Catogery {
     ACCESSORY ("Phụ Kiện");
 
     private String value;
-    Catogery(String value){
+    Category(String value){
         this.value = value;
     }
 

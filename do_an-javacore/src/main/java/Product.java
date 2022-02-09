@@ -6,9 +6,9 @@ public class Product {
     private int quantity;
     private int quantitySale;
     private String brand;
-    private Catogery catogery;
+    private Category category;
 
-    public Product(int id, String name, int price, String description, int quantity, int quantitySale, String brand, Catogery catogery) {
+    public Product(int id, String name, int price, String description, int quantity, int quantitySale, String brand, Category category) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -16,7 +16,7 @@ public class Product {
         this.quantity = quantity;
         this.quantitySale = quantitySale;
         this.brand = brand;
-        this.catogery = catogery;
+        this.category = category;
     }
 
     public int getId() {
@@ -75,12 +75,12 @@ public class Product {
         this.brand = brand;
     }
 
-    public Catogery getCatogery() {
-        return catogery;
+    public Category getCatogery() {
+        return category;
     }
 
-    public void setCatogery(Catogery catogery) {
-        this.catogery = catogery;
+    public void setCatogery(Category category) {
+        this.category = category;
     }
 
     @Override
@@ -93,6 +93,6 @@ public class Product {
                 " - " + quantity +
                 " - " + quantitySale +
                 " - " + brand +
-                " - " + catogery ;
+                " - " + category;
     }
 }

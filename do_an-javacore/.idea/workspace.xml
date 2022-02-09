@@ -5,24 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a50ce1e-d1db-4aad-9520-d04d734dcccc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProductInfor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson13/Exercise/Exercise1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson13/demo-generic/demo-generic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson14/Collection/ListExample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson14/Collection/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise/MoreExercise-lesson13/InformationClientManage/src/main/java/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise/MoreExercise-lesson13/InformationClientManage/src/main/java/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductInfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Catogery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductInfor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductInfor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/jarRepositories.xml" beforeDir="false" />
@@ -67,6 +63,7 @@
       <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson14/Collection/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson14/Collection/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Controller/Controller.java" afterDir="false" />
