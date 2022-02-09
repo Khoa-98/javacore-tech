@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a50ce1e-d1db-4aad-9520-d04d734dcccc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductInfor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson13/Exercise/Exercise1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson13/demo-generic/demo-generic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/Collection/ListExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/Collection/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise/MoreExercise-lesson13/InformationClientManage/src/main/java/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise/MoreExercise-lesson13/InformationClientManage/src/main/java/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/src/main/java/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/Movie/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Movie/src/main/java/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/Movie/src/main/java/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/MovieManage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/MovieManage/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/MovieManage/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/MovieManage/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/Moive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/Moive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/Sorting/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/Sorting/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/btvn10-Movie/src/main/java/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/btvn10-Movie/src/main/java/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson12/Exception/src/Bmi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson12/Exception/src/Bmi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson12/Exception/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson12/Exception/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson12/Exception/src/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson12/Exception/src/MyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson12/Exception/src/Tamgiac.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson12/Exception/src/Tamgiac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson12/Exception/src/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson12/Exception/src/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson12/InternetBanking/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson12/InternetBanking/src/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson12/InternetBanking/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson12/InternetBanking/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson12/InternetBanking/src/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson12/InternetBanking/src/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/Exercise/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/Exercise/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/Exercise/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/Exercise/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/Exercise/src/PersonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/Exercise/src/PersonModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/Exercise/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/Exercise/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/Exercise/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/Exercise/src/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/LibraryManage/out/production/LibraryManage/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/LibraryManage/out/production/LibraryManage/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/LibraryManage/src/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/LibraryManage/src/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/MyGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/MyGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson13/demo-generic/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson13/demo-generic/src/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/ListInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/ListInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/ListString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/ListString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson9/lab-9/BookManage/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="24lXJke3P3KU2tNacusKZ0VyiIl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/qlsv-swing" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="do_an-javacore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a50ce1e-d1db-4aad-9520-d04d734dcccc" name="Changes" comment="" />
+      <created>1644206080072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644206080072</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
