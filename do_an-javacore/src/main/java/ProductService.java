@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Locale;
 
 public class ProductService {
@@ -23,6 +25,24 @@ public class ProductService {
             System.out.println("Không có sản phẩm nào");
         }
     }
+
+  public void sortQuantitySale(){
+      Collections.sort(products.listProduct, new Comparator<Product>() {
+          @Override
+          public int compare(Product o1, Product o2) {
+              return o2.getQuantitySale() - o1.getQuantitySale();
+          }
+      });
+  }
+  public void getTop5Product(){
+        int count =0;
+        for (Product p:products.listProduct){
+            if(count < 5){
+                System.out.println(p);
+                count++;
+            }
+        }
+  }
 
     public void getProductByBrand(String brand){
         int count =0;

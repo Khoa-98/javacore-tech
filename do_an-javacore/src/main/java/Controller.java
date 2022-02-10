@@ -31,6 +31,11 @@ public class Controller {
                     String name = sc.nextLine();
                     service.searchProductByName(name);
                     break;
+                case 6:
+                    System.out.println("Top 5 sp bán chạy nhất");
+                    service.sortQuantitySale();
+                    service.getTop5Product();
+                    break;
                 case 0:
                     System.exit(0);
                     break;

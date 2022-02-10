@@ -19,16 +19,16 @@ public class ProductInfor {
         listProduct.add(new Product(12, "iPad Pro 11 2021 M1 Wi-Fi 128GB", 19999000, "Exynos 961110.4\"4 GB64 GB7040 mAh", 31, 15, "Apple", Category.TABLET));
         listProduct.add(new Product(13, "Xiaomi Pab5 256G", 10390000, "Exynos 961110.4\"4 GB64 GB7040 mAh", 31, 15, "XIAOMI", Category.TABLET));
         listProduct.add(new Product(14, "Lenovo Tab P11 Pro WI-FI 4G 128GB", 14590000, "Exynos 961110.4\"4 GB64 GB7040 mAh", 31, 15, "LENOVO", Category.TABLET));
-        listProduct.add(new Product(15, "Samsung Galaxy Watch 4 44mm", 6490000, "1.2\"Exynos W92016 GBSilicone", 33, 21, "SAMSUNG", Category.SMARTWATCH));
+        listProduct.add(new Product(15, "Samsung Galaxy Watch 4 44mm", 6490000, "1.2\"Exynos W92016 GBSilicone", 33, 27, "SAMSUNG", Category.SMARTWATCH));
         listProduct.add(new Product(16, "Apple Watch SE GPS 40mm viền nhôm dây cao su", 6999000, "1.2\"Exynos W92016 GBSilicone", 33, 21, "Apple", Category.SMARTWATCH));
-        listProduct.add(new Product(17, "Oppo Watch 41mm Wifi (OW19W6)", 4010000, "1.2\"Exynos W92016 GBSilicone", 33, 21, "Oppo", Category.SMARTWATCH));
-        listProduct.add(new Product(18, "Vòng đeo tay thông minh Mi Band 6", 999000, "1.2\"Exynos W92016 GBSilicone", 33, 21, "Xiaomi", Category.SMARTWATCH));
+        listProduct.add(new Product(17, "Oppo Watch 41mm Wifi (OW19W6)", 4010000, "1.2\"Exynos W92016 GBSilicone", 33, 23, "Oppo", Category.SMARTWATCH));
+        listProduct.add(new Product(18, "Vòng đeo tay thông minh Mi Band 6", 999000, "1.2\"Exynos W92016 GBSilicone", 33, 8, "Xiaomi", Category.SMARTWATCH));
         listProduct.add(new Product(19, "Huawei Watch Fit", 3290000, "1.2\"Exynos W92016 GBSilicone", 33, 21, "Huawei", Category.SMARTWATCH));
-        listProduct.add(new Product(20, "Tai nghe AirPods Pro 2021", 4999000, "Tai nghe không dây Bluetooth", 50, 25, "Apple", Category.ACCESSORY));
+        listProduct.add(new Product(20, "Tai nghe AirPods Pro 2021", 4999000, "Tai nghe không dây Bluetooth", 50, 12, "Apple", Category.ACCESSORY));
         listProduct.add(new Product(21, " Sạc nhanh 20W USB-C Power Adapter", 549000, "Adapter sạc", 50, 25, "Apple", Category.ACCESSORY));
-        listProduct.add(new Product(22, "Sạc dự phòng 20000mAh Xiaomi Mi 3 Pro", 990000, "20000 mAh Lithium-Polimer", 50, 25, "Xiaomi", Category.ACCESSORY));
-        listProduct.add(new Product(23, "Loa Bluetooth Sony SRS-XB13", 1161000, "Loa Bluetooth 5W", 50, 25, "sony", Category.ACCESSORY));
-        listProduct.add(new Product(24, "Chuột không dây Logitech M221", 319000, "Chuột không dây", 50, 25, "Logitech", Category.ACCESSORY));
+        listProduct.add(new Product(22, "Sạc dự phòng 20000mAh Xiaomi Mi 3 Pro", 990000, "20000 mAh Lithium-Polimer", 50, 9, "Xiaomi", Category.ACCESSORY));
+        listProduct.add(new Product(23, "Loa Bluetooth Sony SRS-XB13", 1161000, "Loa Bluetooth 5W", 50, 7, "sony", Category.ACCESSORY));
+        listProduct.add(new Product(24, "Chuột không dây Logitech M221", 319000, "Chuột không dây", 50, 15, "Logitech", Category.ACCESSORY));
 
 
     }
