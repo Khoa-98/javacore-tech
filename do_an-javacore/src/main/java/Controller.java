@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Controller {
@@ -6,43 +7,87 @@ public class Controller {
     Scanner sc = new Scanner(System.in);
 
     public void mainMenu(){
-        boolean isContinue = true;
-        while(isContinue){
-            Menu.menu();
-            int choose = Integer.parseInt(sc.nextLine());
-            switch (choose){
+        boolean isCheck = true;
+        while (isCheck){
+            Menu.menuHome();
+            int choice = Integer.parseInt(sc.nextLine());
+            switch (choice){
                 case 1:
-                    System.out.println("Danh sách sản phẩm:  ");
-                    service.getAllProduct();
+                    boolean isContinue = true;
+                    while(isContinue){
+                        Menu.menu();
+                        int choose = Integer.parseInt(sc.nextLine());
+                        switch (choose){
+                            case 1:
+                                System.out.println("Danh sách sản phẩm:  ");
+                                service.getAllProduct();
+                                break;
+                            case 2:
+                                categoryMenu();
+                                break;
+                            case 3:
+                                System.out.println("Nhập thương hiệu bạn muốn tìm: ");
+                                String brand = sc.nextLine();
+                                System.out.println("Danh sách sản phẩm tìm được là:  ");
+                                service.getProductByBrand(brand);
+                                break;
+                            case 4:
+                                priceMenu();
+                                break;
+                            case 5:
+                                System.out.println("Nhập tên sản phẩm:  ");
+                                String name = sc.nextLine();
+                                service.searchProductByName(name);
+                                break;
+                            case 6:
+                                System.out.println("Top 5 sp bán chạy nhất");
+                                service.sortQuantitySale();
+                                service.getTop5Product();
+                                break;
+                            case 0:
+                                System.exit(0);
+                                break;
+                            default:
+                                System.out.println("Không có lựa chọn này");
+                        }
+                    }
                     break;
                 case 2:
-                    categoryMenu();
-                    break;
-                case 3:
-                    System.out.println("Nhập thương hiệu bạn muốn tìm: ");
-                    String brand = sc.nextLine();
-                    service.getProductByBrand(brand);
-                    break;
-                case 4:
-                    priceMenu();
-                    break;
-                case 5:
-                    System.out.println("Nhập tên sản phẩm:  ");
-                    String name = sc.nextLine();
-                    service.searchProductByName(name);
-                    break;
-                case 6:
-                    System.out.println("Top 5 sp bán chạy nhất");
-                    service.sortQuantitySale();
-                    service.getTop5Product();
-                    break;
-                case 0:
-                    System.exit(0);
+                    boolean isKeep = true;
+                    while (isKeep){
+                        Menu.adminMenu();
+                        int choose1 = Integer.parseInt(sc.nextLine());
+                        switch(choose1){
+                            case 1:
+                                System.out.println("Danh sách sản phẩm: ");
+                                service.getAllProduct();
+                                break;
+                            case 2:
+                                updateproduct();
+                                break;
+                            case 3:
+                                service.deleteProduct();
+                                service.getAllProduct();
+                                break;
+                            case 4:
+                                service.createNewProduct();
+                                break;
+                            case 0:
+                                System.exit(0);
+                                break;
+                            default:
+                                System.out.println("Không có lựa chọn này");
+
+                        }
+                    }
+
                     break;
                 default:
                     System.out.println("Không có lựa chọn này");
             }
         }
+
+
     }
 
     public void categoryMenu(){
@@ -104,4 +149,19 @@ public class Controller {
             service.getProductByPrice(choose);
         }
     }
+    public void updateproduct(){
+        System.out.println("Nhập id sản phẩm bạn muốn cập nhật thông tin: ");
+        int id = Integer.parseInt(sc.nextLine());
+        Product searchProduct = service.searchProductByID(id);
+        System.out.println("Sản phẩm tìm được là: ");
+        System.out.println(searchProduct);
+
+        System.out.println("Nhập tên sản phẩm mới: ");
+        String name = sc.nextLine();
+        System.out.println("Nhập giá sản phẩm mới: ");
+        int price = Integer.parseInt(sc.nextLine());
+        service.updateProduct(searchProduct, name, price);
+    }
+
+
 }
