@@ -2,55 +2,24 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Controller {
-
+    AccountService accountService = new AccountService();
+    ArrayList<Account> accounts = accountService.getAllAccount();
     ProductService service = new ProductService();
     Scanner sc = new Scanner(System.in);
 
     public void mainMenu(){
+        Menu.menuHome();
         boolean isCheck = true;
         while (isCheck){
-            Menu.menuHome();
+
             int choice = Integer.parseInt(sc.nextLine());
             switch (choice){
                 case 1:
-                    boolean isContinue = true;
-                    while(isContinue){
-                        Menu.menu();
-                        int choose = Integer.parseInt(sc.nextLine());
-                        switch (choose){
-                            case 1:
-                                System.out.println("Danh sách sản phẩm:  ");
-                                service.getAllProduct();
-                                break;
-                            case 2:
-                                categoryMenu();
-                                break;
-                            case 3:
-                                System.out.println("Nhập thương hiệu bạn muốn tìm: ");
-                                String brand = sc.nextLine();
-                                System.out.println("Danh sách sản phẩm tìm được là:  ");
-                                service.getProductByBrand(brand);
-                                break;
-                            case 4:
-                                priceMenu();
-                                break;
-                            case 5:
-                                System.out.println("Nhập tên sản phẩm:  ");
-                                String name = sc.nextLine();
-                                service.searchProductByName(name);
-                                break;
-                            case 6:
-                                System.out.println("Top 5 sp bán chạy nhất");
-                                service.sortQuantitySale();
-                                service.getTop5Product();
-                                break;
-                            case 0:
-                                System.exit(0);
-                                break;
-                            default:
-                                System.out.println("Không có lựa chọn này");
-                        }
-                    }
+                    System.out.println(" -> Đăng nhập");
+                    login();
+                    System.out.println("Bạn  đăng nhập thành công");
+                    System.out.println("Bạn có thể thực hiện: ");
+                    userMenu();
                     break;
                 case 2:
                     boolean isKeep = true;
@@ -64,6 +33,7 @@ public class Controller {
                                 break;
                             case 2:
                                 updateproduct();
+                                service.getAllProduct();
                                 break;
                             case 3:
                                 service.deleteProduct();
@@ -88,6 +58,65 @@ public class Controller {
         }
 
 
+    }
+
+    public Account login(){
+        Account account = null;
+        while (account == null){
+            System.out.println("Nhập số điện thoại: ");
+            String mobile = sc. nextLine();
+            System.out.println("Nhập mật khẩu: ");
+            String password = sc.nextLine();
+            account = accountService.checkLogin(accounts, mobile, password);
+
+
+            if (account == null){
+                System.out.println("Sai số điện thoại hoặc password");
+                System.out.println("Vui lòng đăng nhập lại");
+            }
+        }
+        return account;
+    }
+
+    public void userMenu(){
+        boolean isContinue = true;
+        while(isContinue){
+            Menu.menu();
+            int choose = Integer.parseInt(sc.nextLine());
+            switch (choose){
+                case 1:
+                    System.out.println("Danh sách sản phẩm:  ");
+                    service.getAllProduct();
+                    break;
+                case 2:
+                    categoryMenu();
+                    break;
+                case 3:
+                    System.out.println("Nhập thương hiệu bạn muốn tìm: ");
+                    String brand = sc.nextLine();
+                    System.out.println("Danh sách sản phẩm tìm được là:  ");
+                    service.getProductByBrand(brand);
+                    break;
+                case 4:
+                    priceMenu();
+                    break;
+                case 5:
+                    System.out.println("Nhập tên sản phẩm:  ");
+                    String name = sc.nextLine();
+                    service.searchProductByName(name);
+                    break;
+                case 6:
+                    System.out.println("Top 5 sp bán chạy nhất");
+                    service.sortQuantitySale();
+                    service.getTop5Product();
+                    break;
+                case 0:
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("Không có lựa chọn này");
+            }
+        }
     }
 
     public void categoryMenu(){
@@ -120,7 +149,7 @@ public class Controller {
                     service.getProductByCategory(Category.ACCESSORY);
                     break;
                 case 0:
-                    mainMenu();
+                    userMenu();
                     break;
                 default:
                     System.out.println("Không có lựa chọn này");
@@ -143,7 +172,7 @@ public class Controller {
 
             int choose = Integer.parseInt(sc.nextLine());
             if(choose == 0){
-                mainMenu();
+                userMenu();
             }
 
             service.getProductByPrice(choose);

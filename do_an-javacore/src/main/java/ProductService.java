@@ -6,12 +6,13 @@ public class ProductService {
     ArrayList<Product> products1 = products.listProduct;
     Scanner sc = new Scanner(System.in);
 
+    // lấy ra tất cả sản phẩm
     public void getAllProduct(){
         for (Product p: products.listProduct){
             System.out.println(p);
         }
     }
-
+        // lấy sp bằng danh mục sp
     public void getProductByCategory(Category category ){
         int count = 0;
         for (Product p: products.listProduct){
@@ -24,7 +25,7 @@ public class ProductService {
             System.out.println("Không có sản phẩm nào");
         }
     }
-
+        // sắp xếp só lượng sp đc bán ra từ cao -> thấp
   public void sortQuantitySale(){
       Collections.sort(products.listProduct, new Comparator<Product>() {
           @Override
@@ -33,6 +34,8 @@ public class ProductService {
           }
       });
   }
+
+            // lấy 5 sp bán chạy nhất
   public void getTop5Product(){
         int count =0;
         for (Product p:products.listProduct){
@@ -42,7 +45,7 @@ public class ProductService {
             }
         }
   }
-
+    //lấy các sp bằng thương hiệu
     public void getProductByBrand(String brand){
         int count =0;
         for (Product p:products.listProduct){
@@ -56,7 +59,7 @@ public class ProductService {
         }
 
     }
-
+        // Xem các sản phẩm bằng giá
     public void getProductByPrice(int choose){
         int count = 0;
         switch (choose){
@@ -107,7 +110,7 @@ public class ProductService {
             System.out.println("Không có sản phẩm này ");
         }
     }
-
+        //Tìm sản phẩm bằng tên
     public void searchProductByName(String name){
         int count = 0;
         for (Product p:products.listProduct){
@@ -135,8 +138,8 @@ public class ProductService {
     public void updateProduct(Product product,  String newName, int newPrice ){
         product.setName(newName);
         product.setPrice(newPrice);
-        System.out.println("Sản phẩm sau khi cập nhật:  ");
-        System.out.println(product);
+        System.out.println("Danh sách sản phẩm sau khi cập nhật:  ");
+
     }
 
     public void deleteProduct(){
@@ -174,6 +177,7 @@ public class ProductService {
         return new Product(id , name, price, description, quantity, quantitySale, brand, category);
 
     }
+    // kiểm tra xem sp đã được thêm hay chưa
     public void createNewProduct(){
         Product newProduct = addNewProduct();
         if(products1.add(newProduct)){
@@ -181,9 +185,9 @@ public class ProductService {
         }else {
             System.out.println("Thêm thất bại");
         }
-        getAllProduct();
+
     }
-        // Lựa chọn loại sản phẩm
+        // Lựa chọn loại/danh mục sản phẩm
     public Category chooseCategory(){
         Category category = null;
         Scanner sc = new Scanner(System.in);

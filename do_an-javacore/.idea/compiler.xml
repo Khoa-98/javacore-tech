@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="do_an-javacore" />
+        <module name="do_an-javacore_quanlyspFPT" />
       </profile>
     </annotationProcessing>
   </component>
