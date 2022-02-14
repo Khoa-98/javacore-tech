@@ -1,3 +1,7 @@
+package Model;
+
+import Util.Category;
+
 public class Product {
     private int id;
     private String name;
@@ -85,7 +89,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product:  "
+        return "Model.Product:  "
                 + id +
                 " - " + name +
                 " - " + price +

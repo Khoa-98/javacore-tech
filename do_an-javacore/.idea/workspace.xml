@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a50ce1e-d1db-4aad-9520-d04d734dcccc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson10/MovieManage/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson10/MovieManage/src/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson10/MovieManage/src/Model/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise/MoreExercise-lesson13/InformationClientManage/src/main/java/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise/MoreExercise-lesson13/InformationClientManage/src/main/java/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProductService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ProductInfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductInfor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/.idea/jarRepositories.xml" beforeDir="false" />
@@ -29,8 +34,8 @@
       <change beforePath="$PROJECT_DIR$/../lesson10/Movie/btvn10-Movie/src/main/java/Movie.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/Movie/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/Movie/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/Movie/src/main/java/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/Movie/src/main/java/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson10/MovieManage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/MovieManage/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson10/MovieManage/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/MovieManage/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/MovieManage/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson10/MovieManage/src/Movie.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson10/ReadJson/src/main/java/Main.java" afterDir="false" />
@@ -102,7 +107,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
       <module name="do_an-javacore" />
       <method v="2">
         <option name="Make" enabled="true" />

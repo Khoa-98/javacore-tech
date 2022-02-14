@@ -1,3 +1,7 @@
+package Service;
+
+import Model.Account;
+
 import java.util.ArrayList;
 
 public class AccountService {

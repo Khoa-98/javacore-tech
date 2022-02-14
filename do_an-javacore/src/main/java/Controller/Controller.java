@@ -1,9 +1,19 @@
+package Controller;
+
+import Model.Account;
+import Model.Product;
+import Service.AccountService;
+import Service.ProductService;
+import Util.Category;
+import Util.Menu;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Controller {
     AccountService accountService = new AccountService();
     ArrayList<Account> accounts = accountService.getAllAccount();
+
     ProductService service = new ProductService();
     Scanner sc = new Scanner(System.in);
 

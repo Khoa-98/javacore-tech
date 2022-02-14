@@ -1,3 +1,8 @@
+package Service;
+
+import Model.Product;
+import Util.Category;
+
 import java.util.ArrayList;
 
 public class ProductInfor {
